@@ -1,39 +1,64 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #333;
+  font-family: 'Tajawal', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#calc-body {
+  width: 35%;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid rgb(185, 185, 185);
+  border-right: none;
+  border-bottom: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form input {
+  width: 100%;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: right;
+  border: none;
+  font-family: inherit;
+  font-size: 30px;
+  background-color: #ccc;
+  color: #333;
 }
 
-.App-link {
-  color: #61dafb;
+form input:focus {
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.orange {
+  background-color: rgb(250, 155, 92);
+}
+
+button {
+  height: 50px;
+  border: none;
+  border-right: 1px solid rgb(185, 185, 185);
+  border-bottom: 1px solid rgb(185, 185, 185);
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#zero {
+  grid-column: 1/3;
 }
