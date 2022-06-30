@@ -13,7 +13,6 @@ export class Calculator extends Component {
   }
 
   handleClick(e) {
-    console.log(e.target.innerText);
     return this.setState((obj) => calculate(obj, e.target.innerText));
   }
 
