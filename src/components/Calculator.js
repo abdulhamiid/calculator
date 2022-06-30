@@ -12,7 +12,7 @@ export const Calculator = () => {
     setObj((obj) => calculate(obj, e.target.innerText));
   }
 
-  const [total, next, operation] = obj;
+  const { total, next, operation } = obj;
 
   return (
     <div id="calc-body">
