@@ -11,7 +11,7 @@ const quotes = [
   },
   {
     id: 2,
-    title: 'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater',
+    title: 'Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.',
     author: 'Albert Einstein',
   },
   {
@@ -46,7 +46,7 @@ const quotes = [
   },
   {
     id: 9,
-    title: 'Mathematics is a language',
+    title: 'Mathematics is a language.',
     author: 'Josiah Willard Gibbs',
   },
   {
@@ -67,10 +67,10 @@ function Quotes() {
       </nav>
       <main className="main-section">
         <h2>Quote</h2>
-        <p>
+        <p id="quote">
           {quotes[index].title}
         </p>
-        <span>
+        <span id="span">
           -
           {quotes[index].author}
         </span>
