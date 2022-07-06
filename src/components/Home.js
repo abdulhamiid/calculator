@@ -7,6 +7,8 @@ function Home() {
       <Navbar />
       <main className="main-section">
         <p>
+          Welcome!
+          <br />
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Archite
         </p>
       </main>
