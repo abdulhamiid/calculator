@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import {
-  Link,
-} from 'react-router-dom';
 import calculate from '../logic/calculate';
+import Navbar from './Navbar';
 
 export const Calculator = () => {
   const [obj, setObj] = useState({
@@ -19,12 +17,8 @@ export const Calculator = () => {
 
   return (
     <div>
-      <nav>
-        <Link to="/home">Home</Link>
-        <Link to="/quotes">Qoutes</Link>
-        <Link to="/calculator">Calculator</Link>
-      </nav>
-      <h2 id="calc-title">Let us do some Maths</h2>
+      <Navbar />
+      <h2 id="calc-title">Let us do some Maths!</h2>
       <div id="calc-body">
         <form>
           <input value={(total || '') + (operation || '') + (next || '')} onChange={(e) => handleClick(e)} />
