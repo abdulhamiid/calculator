@@ -8,7 +8,8 @@ function Quotes() {
     <>
       <nav>
         <Link to="/home">Home</Link>
-        <Link to="/calculate">Calculate</Link>
+        <Link to="/quotes">Qoutes</Link>
+        <Link to="/calculator">Calculator</Link>
       </nav>
       <main>
         <h2>Quote</h2>

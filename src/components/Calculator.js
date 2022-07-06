@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import {
+  Link,
+} from 'react-router-dom';
 import calculate from '../logic/calculate';
 
 export const Calculator = () => {
@@ -16,6 +19,11 @@ export const Calculator = () => {
 
   return (
     <div id="calc-body">
+      <nav>
+        <Link to="/home">Home</Link>
+        <Link to="/quotes">Qoutes</Link>
+        <Link to="/calculator">Calculator</Link>
+      </nav>
       <form>
         <input value={(total || '') + (operation || '') + (next || '')} onChange={(e) => handleClick(e)} />
       </form>

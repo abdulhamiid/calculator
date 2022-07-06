@@ -7,8 +7,9 @@ function Home() {
   return (
     <>
       <nav>
+        <Link to="/home">Home</Link>
         <Link to="/quotes">Qoutes</Link>
-        <Link to="/calculate">Calculate</Link>
+        <Link to="/calculator">Calculator</Link>
       </nav>
       <main>
         <p>
