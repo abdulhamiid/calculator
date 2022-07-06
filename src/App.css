@@ -136,3 +136,44 @@ nav a:hover {
   letter-spacing: 2px;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  nav {
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .nav {
+    gap: 12px;
+  }
+
+  .nav a {
+    letter-spacing: 0;
+    font-size: 12px;
+  }
+
+  .main-section {
+    margin-top: 80px;
+  }
+
+  #quote {
+    margin-top: 10px;
+  }
+
+  .main-section p {
+    font-size: 30px;
+    margin-top: 80px;
+  }
+
+  #calc-body {
+    width: 95%;
+  }
+
+  #calc-title {
+    margin-top: 100px;
+  }
+}
