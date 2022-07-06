@@ -11,7 +11,7 @@ function Home() {
         <Link to="/quotes">Qoutes</Link>
         <Link to="/calculator">Calculator</Link>
       </nav>
-      <main>
+      <main className="main-section">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Archite
         </p>
