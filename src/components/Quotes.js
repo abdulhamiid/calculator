@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  Link,
-} from 'react-router-dom';
+import Navbar from './Navbar';
 
 const quotes = [
   {
@@ -57,14 +55,10 @@ const quotes = [
 ];
 
 function Quotes() {
-  const index = Math.floor(Math.random() * 10 + 1);
+  const index = Math.floor(Math.random() * 10);
   return (
     <>
-      <nav>
-        <Link to="/home">Home</Link>
-        <Link to="/quotes">Qoutes</Link>
-        <Link to="/calculator">Calculator</Link>
-      </nav>
+      <Navbar />
       <main className="main-section">
         <h2>Quote</h2>
         <p id="quote">
