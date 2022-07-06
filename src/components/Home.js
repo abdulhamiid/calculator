@@ -1,16 +1,10 @@
 import React from 'react';
-import {
-  Link,
-} from 'react-router-dom';
+import Navbar from './Navbar';
 
 function Home() {
   return (
     <>
-      <nav>
-        <Link to="/home">Home</Link>
-        <Link to="/quotes">Qoutes</Link>
-        <Link to="/calculator">Calculator</Link>
-      </nav>
+      <Navbar />
       <main className="main-section">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Archite
