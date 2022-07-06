@@ -14,7 +14,7 @@ export class App extends Component {
     return (
       <div className="App">
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/calculator" element={<Calculate />} />
           <Route path="/quotes" element={<Quotes />} />
         </Routes>
