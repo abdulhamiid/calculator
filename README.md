@@ -9,6 +9,9 @@
 
 - React
 
+## Live Demo
+[live demo](https://melodious-toffee-2c949d.netlify.app/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
