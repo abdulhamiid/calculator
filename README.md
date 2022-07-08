@@ -10,7 +10,9 @@
 - React
 
 ## Live Demo
-[live demo](https://melodious-toffee-2c949d.netlify.app/)
+Netlify [live demo](https://melodious-toffee-2c949d.netlify.app/)
+Heroku [live Demo](https://abdulhamid-react-calculator.herokuapp.com/quotes)
+
 
 ## Getting Started
 
