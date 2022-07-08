@@ -9,6 +9,10 @@
 
 - React
 
+## Live Demo
+- Netlify [live demo](https://melodious-toffee-2c949d.netlify.app/)
+- Heroku [live Demo](https://abdulhamid-react-calculator.herokuapp.com/quotes)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
