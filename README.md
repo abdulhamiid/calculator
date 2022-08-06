@@ -14,6 +14,11 @@
 - Netlify [live demo](https://melodious-toffee-2c949d.netlify.app/)
 - Heroku [live Demo](https://abdulhamid-react-calculator.herokuapp.com/quotes)
 
+
+## Screenshots
+![screenshot](./src/img/calc3.PNG)
+![screenshot](./src/img/calc2.PNG)
+![screenshot](./src/img/calc1.PNG)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
