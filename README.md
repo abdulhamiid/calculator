@@ -4,6 +4,21 @@
 
 >Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations, App also display random math-related quote..
 
+This **Single Page App** (SPA) was built with ReactJS. It has three pages:
+
+- Home Page
+- Calculator Page
+- Quotes Page
+
+These pages will display when their links in the navigation bar is clicked without the browser loading thanks to React Router Library.
+
+On the Calculator Page, the user can perform mathematical operations;
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
 
 ## Built With
 
@@ -39,10 +54,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 
 ## Author
 
