@@ -7,7 +7,8 @@
 
 ## Built With
 
-- React
+- HTML, CSS, Javascript
+- Webpack, Stylelint, ESlint, React JS, React Router, Jest, Github Actions
 
 ## Live Demo
 - Netlify [live demo](https://melodious-toffee-2c949d.netlify.app/)
