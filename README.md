@@ -26,7 +26,7 @@ On the Calculator Page, the user can perform mathematical operations;
 - Webpack, Stylelint, ESlint, React JS, React Router, Jest, Github Actions
 
 ## Live Demo
-- Netlify [live demo](https://melodious-toffee-2c949d.netlify.app/)
+- Netlify [live demo](https://statuesque-kashata-254e0f.netlify.app/)
 - Heroku [live Demo](https://abdulhamid-react-calculator.herokuapp.com/quotes)
 
 
