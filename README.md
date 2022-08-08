@@ -26,8 +26,8 @@ On the Calculator Page, the user can perform mathematical operations;
 - Webpack, Stylelint, ESlint, React JS, React Router, Jest, Github Actions
 
 ## Live Demo
-- Netlify [live demo](https://statuesque-kashata-254e0f.netlify.app/)
-- Heroku [live Demo](https://abdulhamid-react-calculator.herokuapp.com/quotes)
+- Netlify [Link](https://statuesque-kashata-254e0f.netlify.app/)
+- Heroku [Link](https://abdulhamid-react-calculator.herokuapp.com/quotes)
 
 
 ## Screenshots
@@ -63,9 +63,9 @@ The page will reload when you make changes.
 
 👤 **Abdulhamid**
 
-- GitHub: [@githubhandle](https://github.com/abdulhamiid)
-- Twitter: [@twitterhandle](https://twitter.com/abdulhamid_adio)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdulhamid-adio-b0b343223)
+- GitHub: [abdulhamiid](https://github.com/abdulhamiid)
+- Twitter: [@abdulhamid_adio](https://twitter.com/abdulhamid_adio)
+- LinkedIn: [Adio Abdulhamid](https://linkedin.com/)
 
 ## 🤝 Contributing
 
@@ -79,9 +79,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Big thanks to Microverse team
 
 ## 📝 License
 
