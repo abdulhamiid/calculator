@@ -46,7 +46,7 @@ export const Calculator = () => {
             <button type="button" className="orange" name="=" onClick={handleClick}>=</button>
           </div>
         </div>
-      </main> 
+      </main>
     </>
   );
 };
