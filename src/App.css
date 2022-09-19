@@ -11,8 +11,12 @@ body {
   font-family: 'Tajawal', sans-serif;
 }
 
-h1 {
-  font-size: 40px;
+li {
+  list-style: none;
+}
+
+#title {
+  font-size: 30px;
 }
 
 a {
@@ -111,13 +115,9 @@ nav a:hover {
   color: #fff;
 }
 
-.main-section h2 {
-  margin-bottom: 20px;
-}
-
 .main-section p {
-  font-size: 50px;
-  text-align: center;
+  margin-bottom: 18px;
+  margin-top: 30px;
 }
 
 #quote {
@@ -162,11 +162,6 @@ nav a:hover {
 
   #quote {
     margin-top: 10px;
-  }
-
-  .main-section p {
-    font-size: 30px;
-    margin-top: 80px;
   }
 
   #calc-body {
