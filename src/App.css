@@ -11,6 +11,10 @@ body {
   font-family: 'Tajawal', sans-serif;
 }
 
+li {
+  list-style: none;
+}
+
 h1 {
   font-size: 40px;
 }
@@ -113,11 +117,6 @@ nav a:hover {
 
 .main-section h2 {
   margin-bottom: 20px;
-}
-
-.main-section p {
-  font-size: 50px;
-  text-align: center;
 }
 
 #quote {
