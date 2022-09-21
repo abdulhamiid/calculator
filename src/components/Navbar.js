@@ -7,9 +7,7 @@ function Navbar() {
   return (
     <nav>
       <header>
-        <Link to="/">
-          <h1>Math Magicians</h1>
-        </Link>
+        <Link to="/">Math Magicians</Link>
       </header>
       <ul className="nav">
         <li>
